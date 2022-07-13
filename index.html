@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="website.css">
+    <title>R</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="m-container">
+        <div class="header">
+            <H1>R</H1>
+            <a href="#" target="_blank"><span class="nav">Home</span></a>
+            <a href="#"target="_blank"><span class="nav">Project</span></a>
+            <a href="#"target="_blank"><span class="nav">Pages</span></a>
+            <a href="#"target="_blank"><span class="nav">Element</span></a>
+            <a href="#"target="_blank"><span class="nav">Blogs</span></a>
+            <a href="#"target="_blank"><span class="nav">Shop</span></a>
+            <a href="#"target="_blank"><span class="nav">Contact</span></a>
+            <a href="#"target="_blank"><span class="nav"><Button><img src="Capture.PNG" alt=""></Button></span></a>
+        </div>
+        <div class="body-container">
+            <div class="left-top"></div>
+            <div class="left">
+                <a href="#" target="_blank">
+                <button> <span class="butt">70% off</span>
+                     for frist three month</button>
+                </a>
+                <h2>
+                    Digital Agency <br>
+                    with Excellence <br>
+                    Services.
+                </h2>
+                <br><br>
+                <span class="tit">The 3 gloden rules professional graphic designer don't</span>
+        </div>
+        <div class="footer">
+            <a href="#" id="n" class="btnone">[Student Name]</a>
+			<a href="#" id="roll" class="btntwo">[Roll Number]</a>
+      <a href="#" id="uni" class="btnthree">GLA University, Mathura</a>
+      <a href="#" id="date" class="btnfour"></a>
+        </div>
+        </div>
+        
+    </div>
+    <script>
+        var n = document.getElementById("n");
+        var roll = document.getElementById("roll");
+        var date = document.getElementById("date");
+
+        n.innerHTML = "Shubhi Gupta";
+        roll.innerHTML = "201500683";
+
+        var day = new Date();
+        var d = day.getDate();
+        var month = day.getMonth();
+        var year = day.getFullYear();
+
+        date.innerHTML = `${d}-${month}-${year}`;
+
+    </script>
+</body>
+</html>
